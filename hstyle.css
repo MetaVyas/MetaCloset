@@ -10,6 +10,33 @@ a{
     text-decoration: none;
     color: #ff65bd;
 }
+h1{
+    text-align: center;
+    font-size: 500%;
+    color: #FFFFFF;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    font-family: 'Montserrat Alternates', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  bottom:0px;
+
+}
+
 #titlescroll{
     background-attachment: fixed;
       background-color: #141114;
@@ -19,9 +46,12 @@ a{
         linear-gradient(155deg, black 23px, transparent 23px);
         background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
         background-size: 58px 58px;
-}
-
+      }
+      
 /*Title Text*/
+@font-face { 
+  font-family: Montserrat Alternates; src: url("fonts/MontserratAlternates-Regular.ttf"); 
+} 
 @font-face {
     font-family: Clip;
     src: url("https://acupoftee.github.io/fonts/Clip.ttf");
