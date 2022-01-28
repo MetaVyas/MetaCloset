@@ -1,0 +1,119 @@
+/*
+Color Scheme:
+#000000 Black
+#FFFFFF White
+#932F69 Amaranth M P (Purple)
+#CCDBDC Light Gray (Bluish Gray)
+#1768AC Sapphire Blue (Blue)
+#FFEBE7 Mistory Rose (Pale)
+#FF4000 Red Orange Color Wheel (Red Orange)
+#0CCA4A Dark Pastel Green (Light Green)
+#0CCAAA Aquamarine
+#ca0c2c Dark Red (Aquamarine Comp.)
+*/
+body{
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 2%; 
+    color: #FFFFFF;
+}
+html {
+    background-color: #000000;
+    scroll-behavior: smooth;
+}
+strong{
+    font-size: 200%;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    
+}
+b{
+    color: #0CCAAA;
+    text-decoration: underline;
+}
+p{
+    font-size: 150%;
+}
+li{
+    font-size: 125%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    color: #0CCAAA;
+    background-color:#FFFFFF;
+    margin: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    overflow: hidden;
+    position: relative;
+   
+}
+.navitem{
+    font-size: 200%;
+}
+.navitem:hover{
+    background-color: rgb(255, 255, 255);
+    opacity: 0.55;
+    box-shadow: 0 0 80px #000000;
+
+}
+
+.section {
+    border: #000000 3px;
+    position: relative;
+    text-align: center;
+    background-color: #000000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.tiles{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.contact_head{
+    color: #932F69;
+    font-size: 40px;
+    padding: 5%;
+    font-style: italic;
+}
+.para_title{
+    color: #932F69;
+    font-style:italic;
+    font-size: 400%;
+
+}
+#leftalign{
+    align-items: left;
+}
+#contact_title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 500%;
+    color: #FFFFFF;
+}
+#contactwhite{
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 10px;
+    
+}
+#contactblack{
+    background-color: #000000;
+    color: #FFFFFF;
+}
+#contact_page{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
