@@ -35,7 +35,7 @@ img{
     
 }
 b{
-    color: #0CCAAA;
+    color: #ffffff;
     text-decoration: underline;
 }
 p{
@@ -44,12 +44,34 @@ p{
 li{
     font-size: 125%;
 }
+@font-face { 
+    font-family: Montserrat Alternates; src: url("fonts/MontserratAlternates-Regular.ttf"); 
+  }
+.TitleSign{
+    text-align: center;
+    font-size: 500%;
+    color: #FFFFFF;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .navbar{
     display: flex;
     justify-content: space-around;
     color: #0CCAAA;
     background-color:#FFFFFF;
-    margin: 30px;
+    background: rgba(255, 255, 255, 0.15);
     border-radius: 10px;
     text-decoration: none;
     overflow: hidden;
