@@ -20,6 +20,7 @@ body{
       background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
       background-size: 58px 58px;
     color: #FFFFFF;
+    position: relative;
 }
 html {
     background-color: #000000;
@@ -47,6 +48,9 @@ li{
 @font-face { 
     font-family: Montserrat Alternates; src: url("fonts/MontserratAlternates-Regular.ttf"); 
   }
+.bottompara{
+    z-index: -1; 
+}
 .TitleSign{
     text-align: center;
     font-size: 500%;
@@ -101,6 +105,8 @@ li{
     position: absolute;
     top: 0px;
     right: 0px;
+    opacity: 0.65;
+    max-width: 15%;
 }
 
 .centerimg {
@@ -109,6 +115,7 @@ li{
     margin-right: auto;
     width: 50%;
 }
+
 .contact_head{
     color: #932F69;
     font-size: 40px;
@@ -120,6 +127,10 @@ li{
     font-style:italic;
     font-size: 400%;
 
+}
+.bottomline{
+    background-color: #0CCAAA;
+    margin-top: 5px;
 }
 #leftalign{
     align-items: left;
