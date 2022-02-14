@@ -15,7 +15,7 @@ body{
 }
 h1{
     text-align: center;
-    font-size: 500%;
+    
     color: #FFFFFF;
     text-shadow:
     0 0 7px #fff,
@@ -56,6 +56,10 @@ h1{
         background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
         background-size: 58px 58px;
       }
+
+#bigheader{
+  font-size: 500%;
+}
       
 /*Title Text*/
 @font-face { 
